@@ -1,0 +1,1 @@
+import fs from 'node:fs';let file='public/site.js';let s=fs.readFileSync(file,'utf8');const index=s.indexOf('async function cinematic(){');if(index>=0)s=s.slice(0,index);s+="if(document.body.classList.contains('home'))import('./cinematic.js').then(m=>m.initializeCinematic());\n";fs.writeFileSync(file,s);

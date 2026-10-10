@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {eligible} from '../public/cinematic.js';import fs from 'node:fs';
+const defaults={home:true,reducedMotion:false,saveData:false,slowConnection:false,seen:false,hasMedia:true};
+test('cinematic eligibility respects motion, connection, session and routes',()=>{assert(eligible(defaults));for(const flag of ['reducedMotion','saveData','slowConnection','seen'])assert(!eligible({...defaults,[flag]:true}));for(const flag of ['home','hasMedia'])assert(!eligible({...defaults,[flag]:false}))});
+test('cinematic configuration only points at existing assets',()=>{const config=JSON.parse(fs.readFileSync('public/cinematic.json','utf8'));for(const size of ['desktop','mobile'])for(const file of Object.values(config[size]))if(file)assert(fs.existsSync('public'+file));if(config.audio)assert(fs.existsSync('public'+config.audio))});

@@ -1,0 +1,2 @@
+import fs from 'node:fs';let manifest=JSON.parse(fs.readFileSync('.openai/hosting.json','utf8'));delete manifest.static;manifest.d1='DB';manifest.r2=null;fs.writeFileSync('.openai/hosting.json',JSON.stringify(manifest,null,2));
+let pkg=JSON.parse(fs.readFileSync('package.json','utf8'));pkg.scripts['build:sites']='node scripts/build-sites.mjs';pkg.devDependencies.esbuild='^0.27.0';fs.writeFileSync('package.json',JSON.stringify(pkg,null,2));

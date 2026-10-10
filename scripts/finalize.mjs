@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+const file='scripts/build.mjs';let s=fs.readFileSync(file,'utf8');s=s.replace('<section class="gallery-section"><div class="container filters"','<section class="gallery-section"><h2 class="sr-only">Project collection</h2><div class="container filters"');s=s.replace('<h3>Across the East Bay.</h3>','<h2 class="map-heading">Across the East Bay.</h2>');fs.writeFileSync(file,s);fs.appendFileSync('public/style.css','\n.area-list .map-heading{font-size:30px}\n');

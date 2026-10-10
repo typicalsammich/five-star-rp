@@ -1,0 +1,18 @@
+{
+  "version": "faucet-kitchen-v4",
+  "desktop": {
+    "mp4": "/assets/cinematic/flow-entrance-desktop-v4.mp4",
+    "webm": "/assets/cinematic/flow-entrance-desktop-v4.webm",
+    "poster": "/assets/cinematic/flow-entrance-desktop-poster-v4.webp"
+  },
+  "mobile": {
+    "mp4": "/assets/cinematic/flow-entrance-mobile-v4.mp4",
+    "webm": "/assets/cinematic/flow-entrance-mobile-v4.webm",
+    "poster": "/assets/cinematic/flow-entrance-mobile-poster-v4.webp"
+  },
+  "productionReady": true,
+  "audio": null,
+  "audioTrack": "none",
+  "duration": 4.5,
+  "status": "Silent offline Cycles CGI: copper supply, vertical riser, modeled faucet outlet and 3D kitchen pullback. 30 fps delivery, optical-flow interpolation, final-frame heroes."
+}

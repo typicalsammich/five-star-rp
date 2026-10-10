@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-09",
+  "businessSource": "https://fivestar-rp.com/",
+  "snapshots": [
+    "research/original.js",
+    "research/original.css"
+  ],
+  "business": {
+    "source": "https://fivestar-rp.com/",
+    "notes": "Contact details, hours, services, company statements and coverage extracted from public JavaScript bundle. Claims are company statements, not independent license verification."
+  },
+  "faq": {
+    "source": "https://fivestar-rp.com/",
+    "file": "data/faqs.json",
+    "notes": "Six original questions and answers preserved."
+  },
+  "projects": [
+    {
+      "id": 1,
+      "source": "https://fivestar-rp.com/",
+      "notes": "Original title and category preserved; no location or before/after pairing supplied."
+    },
+    {
+      "id": 2,
+      "source": "https://fivestar-rp.com/",
+      "notes": "Original title and category preserved; no location or before/after pairing supplied."
+    },
+    {
+      "id": 3,
+      "source": "https://fivestar-rp.com/",
+      "notes": "Original title and category preserved; no location or before/after pairing supplied."
+    },
+    {
+      "id": 4,
+      "source": "https://fivestar-rp.com/",
+      "notes": "Original title and category preserved; no location or before/after pairing supplied."
+    },
+    {
+      "id": 5,
+      "source": "https://fivestar-rp.com/",
+      "notes": "Original title and category preserved; no location or before/after pairing supplied."
+    },
+    {
+      "id": 6,
+      "source": "https://fivestar-rp.com/",
+      "notes": "Original title and category preserved; no location or before/after pairing supplied."
+    }
+  ],
+  "cities": {
+    "source": "https://fivestar-rp.com/",
+    "notes": "Seven named cities in the original coverage FAQ. City-center coordinates for markers, not office coordinates.",
+    "coordinatesSource": "https://www.geonames.org/advanced-search.html and public city geographic records"
+  },
+  "logo": {
+    "source": "https://fivestar-rp.com/assets/logo-Xd7AFd1O.png",
+    "method": "imagegen transparent extraction from screenshot",
+    "ownerReviewRequired": true
+  },
+  "hero": {
+    "method": "Offline Blender architectural CGI, extracted losslessly from the decoded final entrance frame",
+    "illustrative": true,
+    "isCompanyProject": false,
+    "isCinematicFinalFrame": true
+  },
+  "map": {
+    "library": "Leaflet 1.9.4",
+    "tiles": "OpenStreetMap",
+    "attribution": "https://www.openstreetmap.org/copyright"
+  },
+  "unavailable": [
+    "User-supplied original logo attachment",
+    "Instagram content: inaccessible",
+    "Verified testimonial text and review attribution",
+    "Genuine before-and-after photo pairs"
+  ],
+  "omittedClaims": [
+    "Aggregate star rating",
+    "Unspecified years of experience",
+    "License numbers",
+    "Unverified project locations",
+    "Additional coverage cities"
+  ],
+  "cinematic": {
+    "method": "Offline Blender Cycles copper supply, open T junction, vertical riser, hollow stainless faucet and modeled kitchen pullback; offline optical-flow interpolation to 30 fps",
+    "audio": "None. Sound removed following owner feedback.",
+    "duration": 4.5
+  }
+}

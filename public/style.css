@@ -13,3 +13,9 @@
 
 
 .cinematic-revealing .header .brand{animation:hero-enter .35s both}.cinematic-revealing .header nav{animation:hero-enter .45s .12s both}.cinematic-revealing .hero-content h1{animation-delay:.07s}.cinematic-revealing .hero-content .actions{animation-delay:.18s}@media(prefers-reduced-motion:reduce){.cinematic-overlay,.cinematic-revealing .header,.cinematic-revealing .hero-content{transition:none}.cinematic-revealing .header *,.cinematic-revealing .hero-content *{animation:none!important}}
+
+/* Mobile header trust badges only; desktop remains unchanged. */
+.mobile-header-badges{display:none}
+@media(max-width:950px){.header{gap:8px}.mobile-header-badges{display:flex;align-items:center;justify-content:center;gap:9px;margin-left:auto;color:var(--accent);min-width:0}.mobile-header-badge{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;white-space:nowrap;font-size:7px;font-weight:700;letter-spacing:.025em;line-height:1.1}.mobile-header-badge svg{width:27px;height:27px}.menu-toggle{flex-shrink:0;margin-left:4px}}
+@media(max-width:650px){.header{padding-left:12px;padding-right:12px}.header .brand{gap:5px;min-width:0}.header .brand img{width:39px;height:48px}.header .brand>span{font-size:10px;letter-spacing:.055em;white-space:nowrap}.header .brand small{font-size:5px;letter-spacing:.12em}.mobile-header-badges{gap:7px}.mobile-header-badge{font-size:6px}.mobile-header-badge svg{width:25px;height:25px}.menu-toggle{width:32px;padding:0;align-items:center}}
+@media(max-width:375px){.header{padding-left:8px;padding-right:8px;gap:5px}.header .brand img{width:33px}.header .brand>span{font-size:9px}.mobile-header-badges{gap:4px}.mobile-header-badge{font-size:5.5px}.mobile-header-badge svg{width:23px;height:23px}.menu-toggle{width:28px;margin-left:0}}
